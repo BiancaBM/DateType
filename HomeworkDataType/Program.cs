@@ -1,15 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RetirementAge.Enums;
+using System;
 
-namespace HomeworkDataType
+namespace RetirementAge
 {
     class Program
     {
         static void Main(string[] args)
         {
+            IService service = new Service();
+
+            int day = service.Insert(InsertType.Day, 1, 31);
+            int month = service.Insert(InsertType.Month, 1, 12);
+            int year = service.Insert(InsertType.Year, 1900, DateTime.Now.Year);
+            Gender gender = service.InsertGender();
+
+            service.CheckIfPersonIsRetired(gender, year, month, day);
         }
     }
 }

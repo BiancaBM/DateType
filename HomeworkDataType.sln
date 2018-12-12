@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkDataType", "HomeworkDataType\HomeworkDataType.csproj", "{EB68C072-1B82-48EB-8C00-3CA50F7318DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetirementAge", "HomeworkDataType\RetirementAge.csproj", "{EB68C072-1B82-48EB-8C00-3CA50F7318DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalitiofString", "FunctionalitiofString\FunctionalitiofString.csproj", "{87396729-D666-43E4-81DC-68DDCF507F95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EB68C072-1B82-48EB-8C00-3CA50F7318DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB68C072-1B82-48EB-8C00-3CA50F7318DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB68C072-1B82-48EB-8C00-3CA50F7318DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87396729-D666-43E4-81DC-68DDCF507F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87396729-D666-43E4-81DC-68DDCF507F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87396729-D666-43E4-81DC-68DDCF507F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87396729-D666-43E4-81DC-68DDCF507F95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
